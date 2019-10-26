@@ -26,6 +26,7 @@ public class HamcrestMatcherTest {
 
         //Array
         Integer[] marks = {1,2,3};
+        //Test size of the array
         assertThat(marks, Matchers.<Integer>arrayWithSize(3));
         assertThat(marks, arrayContaining(1,2,3));
 
